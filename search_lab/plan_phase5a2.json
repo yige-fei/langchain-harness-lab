@@ -1,0 +1,16 @@
+{
+  "provider": "DuckDuckGo",
+  "hostname": "html.duckduckgo.com",
+  "port": 443,
+  "dns_mode": "macOS system resolver",
+  "backend": "duckduckgo",
+  "region": "us-en",
+  "max_results": 5,
+  "timeout_s": 10,
+  "app_retries": 0,
+  "other_providers": "disabled",
+  "paid_apis": "none",
+  "queries": [
+    "Python csv module documentation"
+  ]
+}

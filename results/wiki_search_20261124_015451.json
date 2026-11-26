@@ -1,0 +1,49 @@
+{
+  "query": "Python programming language",
+  "provider": "Wikipedia (MediaWiki Action API)",
+  "host": "en.wikipedia.org",
+  "method": "GET",
+  "requests": 1,
+  "http_status": 200,
+  "bytes": 2046,
+  "status": "ok",
+  "results": [
+    {
+      "title": "Python (programming language)",
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "pageid": 23862,
+      "snippet": "and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing. Guido"
+    },
+    {
+      "title": "Outline of the Python programming language",
+      "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language",
+      "pageid": 81118035,
+      "snippet": "functional programming. ABC (programming language) \u2013 precursor to Python Python was started by Guido van Rossum in 1989 and first released in 1991. Python 2 \u2014"
+    },
+    {
+      "title": "Mojo (programming language)",
+      "url": "https://en.wikipedia.org/wiki/Mojo_(programming_language)",
+      "pageid": 73729965,
+      "snippet": "Mojo is a programming language for Linux and macOS. It is a system programming language with semantics inspired by Rust such as static typing and a borrow"
+    },
+    {
+      "title": "History of Python",
+      "url": "https://en.wikipedia.org/wiki/History_of_Python",
+      "pageid": 21356332,
+      "snippet": "The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the"
+    },
+    {
+      "title": "Zen of Python",
+      "url": "https://en.wikipedia.org/wiki/Zen_of_Python",
+      "pageid": 46448252,
+      "snippet": "Python is a collection of 19 \"guiding principles\" for writing computer programs that influence the design of the Python programming language. Python code"
+    }
+  ],
+  "dropped": 0,
+  "seconds": 0.69,
+  "fields": {
+    "title": 5,
+    "url": 5,
+    "snippet": 5
+  }
+}

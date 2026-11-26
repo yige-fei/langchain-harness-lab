@@ -1,0 +1,7 @@
+Phase 5C freeze, written BEFORE any Phase 5C model run (2026-11-24T07:05:18Z).
+Adoption rule (also in evaluate_5c.py): 5C prompt replaces 5B only with 0 false approvals, MORE total correct, and no fewer correct searches.
+d5867950760960b9439b6d7f34df961942948ffefc81a9c2750c43fff5f2016b  decision_validator_v3.py
+a6faf56b1d76d098564249b3ddf102cb3ce7a80ad4c14b3d10991a143a25a43e  agent_runtime_5b.py
+33598038748d1c41197b69d13d4ee54676a8772d7c2e727868c4f4707b3f194c  grounding.py
+760c66dde1d9b41286e12ba0bfd3c2f99601f26b29d6b2e8c6d795c55b0f004b  eval_5c_cases.py
+68b3b478a86a4dcd2b3a56ed28a7463b991a8a61fbece343c977f298ede6c648  agent_graph_5b.py

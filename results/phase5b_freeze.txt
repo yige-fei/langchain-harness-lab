@@ -1,0 +1,8 @@
+Phase 5B freeze, written BEFORE eval_5b_cases.py existed (2026-11-23T19:36:43Z).
+The Qwen evaluation must run against exactly these files; any later change is reported as tuning.
+048798496c624850cdb04edcd73438e9a6178c798f9711fd55f8fe03c1561bee  decision_validator_v3.py
+c28902aa3e02bc40f7dce26e336ac78dea913f479a5de9fef8d01f7175b8c617  agent_runtime_5b.py
+c1ab0a34c04ebaaaee03e01b4a78ed8df0a2884a17a80e10e1fa07c98e039342  agent_graph_5b.py
+96760ffc9edc531cf2dae07c809c3ded0aa7aa561fe3e524f41420457f674413  wiki_capability.py
+DECISION_PROMPT_5B sha256: 81e707a7ef34080f3dcc49e6aa8b68a98e27758becfb59f838495d8819ee48ca
+eval_5b_cases.py sha256 (written after the freeze): d3ef58db11fa4c945753afb69820f6c8356bb9a484d3f22aa6075ced70adceb4

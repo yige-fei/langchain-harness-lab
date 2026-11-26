@@ -1,0 +1,10 @@
+# Phase 6D freeze: written 2026-11-25 10:13:20 BEFORE any Phase 6D model run.
+# evaluate_6d.py model refuses to run if any of these files changed. Recommendation rule: see evaluate_6d.py.
+dfc446a929eefba75d1bfc6f20df17d47db404a2987ad2ad8280647d96d106bc  eval_6d_cases.py
+e67ba18f1b29db38324f16f41fee12bd4e90c6cd405fb22e69993fec8f878a04  evaluate_6d.py
+79402596a735c35554361fc19997e7da1814fafab0a435d3a88b1b975dd75d7f  clarification.py
+b66742ca9812532b6904e7722b54ae2890f24fbab6c02d07499dc2f28cb3b6b2  agent_graph_5b.py
+0fd2cc7a933ee2de48e9bf1224a302cd16b8314bf5f3d57adc15409f45434935  agent_runtime_5b.py
+0c1d10071ad1c7bd624bc74935445fca4a11814bfb82d8abf23e0de3e21a1c27  decision_validator.py
+bc7d935bd169f0a124e660d373083d7900a0ff7cb4de7b5fa8934cda19023508  decision_validator_v2.py
+d5867950760960b9439b6d7f34df961942948ffefc81a9c2750c43fff5f2016b  decision_validator_v3.py

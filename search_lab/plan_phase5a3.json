@@ -1,0 +1,27 @@
+{
+  "provider": "Wikipedia (MediaWiki Action API)",
+  "hostname": "en.wikipedia.org",
+  "port": 443,
+  "path": "/w/api.php",
+  "method": "GET",
+  "dns_mode": "macOS system resolver",
+  "params": {
+    "action": "query",
+    "list": "search",
+    "format": "json",
+    "formatversion": "2",
+    "srlimit": "5",
+    "srnamespace": "0",
+    "srprop": "snippet",
+    "utf8": "1"
+  },
+  "max_results": 5,
+  "timeout_s": 10,
+  "max_response_bytes": 65536,
+  "redirects": "refused",
+  "app_retries": 0,
+  "other_providers": "disabled",
+  "paid_apis": "none",
+  "query": "Python programming language",
+  "user_agent": "SamToolkitSearchLab/0.1 (https://github.com/yige-fei) Python-urllib/3.12"
+}

@@ -1,0 +1,13 @@
+{
+  "provider": "ddgs",
+  "backend": "duckduckgo",
+  "region": "us-en",
+  "safesearch": "moderate",
+  "max_results": 5,
+  "timeout_s": 10,
+  "queries": [
+    "Python csv module documentation",
+    "LangGraph human-in-the-loop interrupt",
+    "SearXNG search API JSON format"
+  ]
+}
