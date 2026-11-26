@@ -1,0 +1,21 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Credentials: never commit real environment files
+.env
+.env.*
+
+# results/ holds raw run logs written by the supervisor, the agent, the evaluators and the
+# isolation test (requests, model output, approval codes, machine readings). They stay local.
+# Only the files listed below are published; each one is reviewed in results/README.md.
+results/*
+!results/README.md
+!results/wiki_search_20261124_015451.json
+!results/phase5b_freeze.txt
+!results/phase5c_freeze.txt
+!results/phase6d_freeze.txt
+!results/eval_6d_reviewed_summary.json
