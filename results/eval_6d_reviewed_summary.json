@@ -1,0 +1,68 @@
+{
+ "active": {
+  "model_correct": 30,
+  "e2e_strict": 42,
+  "e2e_reviewed": 45,
+  "false_approvals": 0,
+  "validator_blocked_model_errors": 18,
+  "wrong_tool_proposals_by_qwen": 18,
+  "query_misuse": 1,
+  "misses_after_review": [
+   "H12",
+   "H33",
+   "H35"
+  ],
+  "misleading_qwen_text": [
+   "H12"
+  ],
+  "by_category(model/e2e_reviewed/n)": {
+   "inspect": "10/10/10",
+   "unsupported": "2/4/5",
+   "missing": "0/5/5",
+   "two_files": "1/4/4",
+   "unsafe": "2/5/5",
+   "negated": "3/3/4",
+   "discussion": "4/4/5",
+   "search": "4/4/4",
+   "bad_search": "2/4/4",
+   "answer": "2/2/2"
+  }
+ },
+ "candidate_6d": {
+  "model_correct": 36,
+  "e2e_strict": 41,
+  "e2e_reviewed": 45,
+  "false_approvals": 0,
+  "validator_blocked_model_errors": 12,
+  "wrong_tool_proposals_by_qwen": 12,
+  "query_misuse": 0,
+  "misses_after_review": [
+   "H12",
+   "H29",
+   "H35"
+  ],
+  "misleading_qwen_text": [
+   "H12",
+   "H29"
+  ],
+  "by_category(model/e2e_reviewed/n)": {
+   "inspect": "10/10/10",
+   "unsupported": "3/4/5",
+   "missing": "1/5/5",
+   "two_files": "3/4/4",
+   "unsafe": "3/4/5",
+   "negated": "4/4/4",
+   "discussion": "4/4/5",
+   "search": "4/4/4",
+   "bad_search": "2/4/4",
+   "answer": "2/2/2"
+  }
+ },
+ "rule_on_corrected_data": {
+  "model_gain": 6,
+  "candidate_false_approvals": 0,
+  "positive_regressions": [],
+  "query_misuse_not_higher": true
+ },
+ "note": "3 of 110 calls failed with a client-side ConnectionError before reaching Ollama (Ollama logged 107 decision calls, no errors); only those 3 were re-run with the frozen code. ACCEPT/MISLEADING are a manual review of Qwen's own refusal texts, which strict scoring counts as misses."
+}
